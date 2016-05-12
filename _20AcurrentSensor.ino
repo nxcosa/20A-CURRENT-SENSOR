@@ -30,6 +30,7 @@ void loop()
     float CurrentValue =  readDCCurrent(currentSensorPin);  
     /*If you are reading AC current, use this function to read AC current*/
     //float CurrentValue =  readACCurrent(currentSensorPin); 
+	Serial.println(CurrentValue);
     delay(500);
 }
  
